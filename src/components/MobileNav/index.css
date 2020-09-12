@@ -1,0 +1,46 @@
+.topnav {
+    overflow: hidden;
+    position: fixed;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a.icon {
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#m-nav {
+    display: none;
+
+}
+
+.icon {
+    color: white;
+    padding: 15px;
+}
+
+.icons {
+    position: fixed;
+    top: 15px;
+}
+
+#myLinks {
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 2px;
+    background: #859e89 !important;
+    z-index: 5;
+    visibility: hidden;
+}

@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #859e89;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 code {

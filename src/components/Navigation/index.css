@@ -1,0 +1,40 @@
+.navlinks {
+    text-decoration: none;
+    transition: ease-in-out .25s;
+    margin-right: 50px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: lighter;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.navitems {
+    float: left;
+}
+
+.navitems:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav {
+    float: right;
+    top:10px;
+    right: 150px;
+    position:fixed;
+}
+
+.resume {
+    text-decoration: none!important;
+    border: 1px solid white;
+    background-color: #859e89;
+    color: white;
+    transition: ease-in-out .25s;
+}
+
+.resume:hover {
+    background-color: white;
+    color: #859e89;
+}

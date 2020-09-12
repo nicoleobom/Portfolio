@@ -1,0 +1,33 @@
+.box {
+    width: auto;
+    height: 100px;
+    border: 1px solid white !important;
+    background-color: white;
+    color: #859e89;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.portSection {
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 15px !important;
+    font-weight: lighter;
+    font-family: 'Inconsolata', monospace;
+}
+
+button {
+    border: 1px solid white;
+    background-color: #859e89;
+    color: white;
+    transition: ease-in-out .25s;
+    margin-left: 20px;
+    outline: none !important;
+}
+
+button:hover {
+    background-color: white;
+    color: #859e89;
+}
