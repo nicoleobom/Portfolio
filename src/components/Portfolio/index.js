@@ -35,13 +35,13 @@ export default class Portfolio extends React.Component {
                         <a target="_blank" href="https://github.com/nicoleobom/Employee-Directory"><button>CODE</button></a>
                         <a target="_blank" href="https://emp-directory-nlo.herokuapp.com/"><button>DEPLOYED SITE</button></a>
                     </Col>
-                    <Col sm="6" className="portSection">
+                    {/* <Col sm="6" className="portSection">
                         <span><h3 className="title">Fitness Tracker</h3></span>
                         <h5>MongoDB // Mongoose // Express // Node.js // Morgan </h5>
                         <p className="box">With this fitness tracker, you can easily track new workouts and look at your stats with the dashboard.</p>
                         <a target="_blank" href="https://github.com/nicoleobom/Fitness-Tracker"><button>CODE</button></a>
                         <a target="_blank" href="https://fitness-tracker-06292020.herokuapp.com/"><button>DEPLOYED SITE</button></a>
-                    </Col>
+                    </Col> */}
                 </Row>
             </div>
         )
