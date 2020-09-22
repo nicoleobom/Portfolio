@@ -22,7 +22,7 @@ export default class Home extends React.Component {
     render() {
         return (
             <Row>
-                <Col className="cont cont-1">
+                <Col className="cont cont-1 home">
                     <h1>nicole <span onMouseOver={this.toggleToast} onMouseLeave={this.toggleToast}>o'bomsawin</span></h1>
                     <Toast 
                         id="snackbar"

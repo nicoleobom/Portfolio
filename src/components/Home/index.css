@@ -1,6 +1,10 @@
 .cont {
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 15%;
+}
+
+.home {
+    margin-top: 25% !important;
 }
 
 h1 {
