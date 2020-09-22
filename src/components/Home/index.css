@@ -88,6 +88,9 @@ h6 {
     h5 {
         text-align: right;
     }
+    .cont-1 h5 {
+        text-align: center;
+    }
     .title {
         text-align: right;
     }
