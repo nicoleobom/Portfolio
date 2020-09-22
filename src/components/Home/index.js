@@ -3,13 +3,6 @@ import { Row, Col, Toast } from 'react-bootstrap';
 import './index.css';
 
 export default class Home extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         show: false
-    //     }
-    // }
-
     toggleToast() {
         const toast = document.getElementById('snackbar');
         if(toast.style.visibility === "hidden") {
