@@ -40,7 +40,6 @@
     position: fixed;
     margin-left: 20px;
     margin-top: 2px;
-    background: #859e89 !important;
     z-index: 5;
     visibility: hidden;
 }

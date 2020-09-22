@@ -13,6 +13,19 @@ h3 {
     letter-spacing: 3px;
 }
 
+#snackbar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    margin-left: 30%;
+    color: #171728;
+}
+
+h6 {
+    font-weight: bold;
+    color: #171728;
+}
+
 /* lines */
 @keyframes slideUp {
     0% {
@@ -101,6 +114,9 @@ h3 {
     }
     #m-nav {
         display: block!important;
+    }
+    #snackbar {
+        display: none;
     }
 }
 
