@@ -14,7 +14,7 @@
 
 #socialbar {
     margin-top: 0px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 100px;
 }

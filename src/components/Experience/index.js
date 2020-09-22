@@ -11,13 +11,13 @@ export default class Experience extends React.Component {
                         <h1>experience</h1>
                     </Col>
                 </Row>
-                {/* <Row>
-                    <Col className="c-1">
+                <Row>
+                    <Col sm="8" className="c-1">
                         <h3 className="b-2">Freelance</h3>
                         <h5>Web Developer</h5>
                         <h5>08/2020 - PRESENT</h5>
                     </Col>
-                </Row> */}
+                </Row>
                 <Row>
                     <Col sm="8" className="c-1">
                         <h3 className="b-2">Modo Modo Agency</h3>

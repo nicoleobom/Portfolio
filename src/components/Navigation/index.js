@@ -14,7 +14,7 @@ export default class Navigation extends React.Component {
                   <Link to="/portfolio" className="navlinks navitems">Portfolio</Link>
                   <Link to="/experience" className="navlinks navitems">Experience</Link>
                   {/* <Link to="#" className="navlinks navitems">Blog</Link> */}
-                  <Link to={PDF} target="_blank" className="navlinks navitems resume">Resume</Link>
+                  <Link to={PDF} target="_blank" className="navlinks navitems resume" id="resumebtn">Resume</Link>
               </Col>
             </Row>
         )

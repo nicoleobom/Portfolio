@@ -22,7 +22,7 @@ export default class About extends React.Component {
                 </Row>
                 <Row>
                     <Col sm="8" className="c-1">
-                        <h3 className="b-3">always learning and persisting</h3>
+                        <h3 id="b-3" className="b-3">always learning and persisting</h3>
                         <p>It's in my nature to find ways to keep learning and honing in on my skills. When something is broken,
                             I'm absolutely determined to fix it. When I'm looking for an app to fill a void and can't find it,
                             I'll absolutely build it myself.
@@ -31,7 +31,7 @@ export default class About extends React.Component {
                 </Row>
                 <Row>
                     <Col sm="8" className="c-1">
-                        <h3 className="b-3">nimble and detail oriented</h3>
+                        <h3 id="b-3" className="b-3">nimble and detail oriented</h3>
                         <p>Because my background is in marketing with experience at small, fast-paced advertising agencies,
                             I know when to pivot quickly. I know that a client's mind can change in a snap and I'm great at 
                             making sure a project is completed with great quality down to the last tiny detail.

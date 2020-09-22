@@ -19,6 +19,8 @@ export default class Portfolio extends React.Component {
                         <a target="_blank" href="https://github.com/nicoleobom/Quarantini"><button>CODE</button></a>
                         <a target="_blank" href="https://nicoleobom.github.io/Quarantini/"><button>DEPLOYED SITE</button></a>
                     </Col>
+                </Row>
+                <Row>
                     <Col sm="6" className="portSection">
                         <span><h3 className="title">Quizapp</h3></span>
                         <h5>MongoDB // Express // Node.js // React </h5>
@@ -35,13 +37,15 @@ export default class Portfolio extends React.Component {
                         <a target="_blank" href="https://github.com/nicoleobom/Employee-Directory"><button>CODE</button></a>
                         <a target="_blank" href="https://emp-directory-nlo.herokuapp.com/"><button>DEPLOYED SITE</button></a>
                     </Col>
-                    {/* <Col sm="6" className="portSection">
-                        <span><h3 className="title">Fitness Tracker</h3></span>
-                        <h5>MongoDB // Mongoose // Express // Node.js // Morgan </h5>
-                        <p className="box">With this fitness tracker, you can easily track new workouts and look at your stats with the dashboard.</p>
-                        <a target="_blank" href="https://github.com/nicoleobom/Fitness-Tracker"><button>CODE</button></a>
-                        <a target="_blank" href="https://fitness-tracker-06292020.herokuapp.com/"><button>DEPLOYED SITE</button></a>
-                    </Col> */}
+                </Row>
+                <Row>
+                    <Col sm="6" className="portSection">
+                        <span><h3 className="title">Journey</h3></span>
+                        <h5>MongoDB // Mongoose // Express // Node.js // React // Bcrypt // Google Places API </h5>
+                        <p className="box">Journey is a simple resource to help you plan your next trip whether you know where to go or not. Create your own journey or have us create one for you!</p>
+                        <a target="_blank" href="https://github.com/nicoleobom/Journey"><button>CODE</button></a>
+                        <a target="_blank" href="https://createyourjourney.herokuapp.com/"><button>DEPLOYED SITE</button></a>
+                    </Col>
                 </Row>
             </div>
         )

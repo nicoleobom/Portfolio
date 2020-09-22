@@ -29,12 +29,13 @@
 .resume {
     text-decoration: none!important;
     border: 1px solid white;
-    background-color: #859e89;
+    /* background-color: #859e89; */
     color: white;
     transition: ease-in-out .25s;
 }
 
 .resume:hover {
     background-color: white;
-    color: #859e89;
+    color: #171728;
+    font-weight: bold;
 }

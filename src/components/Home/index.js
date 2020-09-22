@@ -9,6 +9,7 @@ export default class Home extends React.Component {
                 <Col className="cont cont-1">
                     <h1>nicole o'bomsawin</h1>
                     <h3>software developer</h3>
+                    <h5>MongoDB // Express // React // Node.js // SQL</h5>
                 </Col>
             </Row>
         )
