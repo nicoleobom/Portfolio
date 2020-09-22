@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Toast } from 'react-bootstrap';
 import './index.css';
+import TextLoop from "react-text-loop";
 
 export default class Home extends React.Component {
     toggleToast() {
@@ -29,8 +30,16 @@ export default class Home extends React.Component {
                         </Toast.Body>
                     </Toast>
                     <h3>software developer</h3>
-                    <h5>MongoDB // Express // React // Node.js // SQL</h5>
-                    
+                    {/* <h5>MongoDB // Express // React // Node.js // SQL</h5> */}
+                    <TextLoop interval={500}>
+                        <h5>MongoDB</h5>
+                        <h5>Express</h5>
+                        <h5>React</h5>
+                        <h5>Node.js</h5>
+                        <h5>SQL</h5>
+                        <h5>AWS</h5>
+                    </TextLoop>
+
                 </Col>
                 
             </Row>

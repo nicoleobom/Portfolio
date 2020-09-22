@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './index.css';
+import TextLoop from "react-text-loop";
 
 export default class About extends React.Component {
     render() {
@@ -22,16 +23,19 @@ export default class About extends React.Component {
                 </Row>
                 <Row>
                     <Col sm="8" className="c-1">
-                        <h3 id="b-3" className="b-3">always learning and persisting</h3>
+                        <h3 id="b-3" className="b-3">always 
+                            <TextLoop interval={600}>
+                                <span>&nbsp;learning</span>
+                                <span>&nbsp;persisting</span>
+                                <span>&nbsp;nimble</span>
+                                <span>&nbsp;detail oriented</span>
+                                <span>&nbsp;understanding</span>
+                                <span>&nbsp;thinking</span>
+                            </TextLoop> </h3>
                         <p>It's in my nature to find ways to keep learning and honing in on my skills. When something is broken,
                             I'm absolutely determined to fix it. When I'm looking for an app to fill a void and can't find it,
                             I'll absolutely build it myself.
                         </p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="8" className="c-1">
-                        <h3 id="b-3" className="b-3">nimble and detail oriented</h3>
                         <p>Because my background is in marketing with experience at small, fast-paced advertising agencies,
                             I know when to pivot quickly. I know that a client's mind can change in a snap and I'm great at 
                             making sure a project is completed with great quality down to the last tiny detail.
