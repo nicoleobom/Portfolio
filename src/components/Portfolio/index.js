@@ -26,7 +26,7 @@ export default class Portfolio extends React.Component {
                         <h5>MongoDB // Express // Node.js // React </h5>
                         <p className="box">A web application that authenticates each user upon login and allows them to take quizzes varying by subject and grade level. Once a quiz has been taken, data is sorted and shown on the leaderboard.</p>
                         <a target="_blank" href="https://github.com/nicoleobom/QuizApp"><button>CODE</button></a>
-                        <a target="_blank" href="https://quizapp-20.herokuapp.com/signin"><button>DEPLOYED SITE</button></a>
+                        <a target="_blank" href="https://quizapp-20.herokuapp.com/"><button>DEPLOYED SITE</button></a>
                     </Col>
                 </Row>
                 <Row>
