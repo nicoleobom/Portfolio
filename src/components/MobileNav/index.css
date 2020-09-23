@@ -29,6 +29,11 @@
 .icon {
     color: white;
     padding: 15px;
+    transition: ease-in-out .15s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
 }
 
 .icons {
@@ -38,8 +43,8 @@
 
 #myLinks {
     position: fixed;
-    margin-left: 20px;
-    margin-top: 2px;
+    margin-left: 50px;
+    margin-top: 5px;
     z-index: 5;
     visibility: hidden;
 }

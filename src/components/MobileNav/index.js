@@ -24,9 +24,9 @@ export default class MobileNav extends React.Component {
                         <Link to="/experience" onClick={this.openMobileNav}><i className="fas fa-briefcase icon"></i></Link>
                         <Link to={PDF} target="_blank" onClick={this.openMobileNav}><i className="fas fa-file icon"></i></Link>
                     </div>
-                    <a class="icons" onClick={this.openMobileNav}>
+                    <button class="icons" onClick={this.openMobileNav}>
                         <i class="fa fa-bars"></i>
-                    </a>
+                    </button>
                 </Col>
             </Row>
         )
