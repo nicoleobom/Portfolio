@@ -21,7 +21,6 @@ export default class Home extends React.Component {
                     <Toast 
                         id="snackbar"
                         style={{ visibility: 'hidden' }}
-                        animation={true}
                         >
                         <Toast.Header closeButton={false}><h6><strong>Yep, it's a weird last name.</strong></h6></Toast.Header>
                         <Toast.Body>
