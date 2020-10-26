@@ -17,7 +17,7 @@ export default class Home extends React.Component {
         return (
             <Row className="justify-content-md-center">
                 <Col className="center">
-                    <h1>nicole o'bomsawin</h1>
+                    <h1 class="gradient">nicole o'bomsawin</h1>
                     {/* <TextLoop interval={500}>
                         <h5>MongoDB</h5>
                         <h5>Express</h5>
