@@ -15,30 +15,18 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <Row>
-                <Col className="cont cont-1 home">
-                    <h1>nicole <span onMouseOver={this.toggleToast} onMouseLeave={this.toggleToast}>o'bomsawin</span></h1>
-                    <Toast 
-                        id="snackbar"
-                        style={{ visibility: 'hidden' }}
-                        >
-                        <Toast.Header closeButton={false}><h6><strong>Yep, it's a weird last name.</strong></h6></Toast.Header>
-                        <Toast.Body>
-                            <h5>It's pronounced: oh-BOM-sah-win
-                            and it means "keeper of the fire".
-                            <br /><br />
-                            <strong>Origin:</strong> Abanaki / French Canadian Indian</h5>
-                        </Toast.Body>
-                    </Toast>
-                    <h3>software developer</h3>
-                    <TextLoop interval={500}>
+            <Row className="justify-content-md-center">
+                <Col className="center">
+                    <h1>nicole o'bomsawin</h1>
+                    {/* <TextLoop interval={500}>
                         <h5>MongoDB</h5>
                         <h5>Express</h5>
                         <h5>React</h5>
                         <h5>Node.js</h5>
                         <h5>SQL</h5>
                         <h5>AWS</h5>
-                    </TextLoop>
+                        <h5>Python</h5>
+                    </TextLoop> */}
 
                 </Col>
                 
