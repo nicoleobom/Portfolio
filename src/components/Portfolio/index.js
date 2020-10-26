@@ -1,50 +1,66 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Accordion, Card, Button } from 'react-bootstrap';
 import './index.css';
 
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <div className="c-m">
+            <div id="projects" className="body">
                 <Row>
-                    <Col className="cont cont-2">
-                        <h1>my work</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="6" className="portSection">
-                        <span><h3 className="title">Quarantini</h3></span>
-                        <h5>JavaScript // jQuery // AJAX</h5>
-                        <p className="box">What better way to solve quarantine boredom than to have an app figure out what to do for you? This app can mix you a drink, tell you a joke, and even inspire you. What else were you planning to do with your time?</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nicoleobom/Quarantini"><button>CODE</button></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://nicoleobom.github.io/Quarantini/"><button>DEPLOYED SITE</button></a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="6" className="portSection">
-                        <span><h3 className="title">Quizapp</h3></span>
-                        <h5>MongoDB // Express // Node.js // React </h5>
-                        <p className="box">A web application that authenticates each user upon login and allows them to take quizzes varying by subject and grade level. Once a quiz has been taken, data is sorted and shown on the leaderboard.</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nicoleobom/QuizApp"><button>CODE</button></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://quizapp-20.herokuapp.com/"><button>DEPLOYED SITE</button></a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="6" className="portSection">
-                        <span><h3 className="title">Employee Directory</h3></span>
-                        <h5>Node.js // React </h5>
-                        <p className="box">An employee directory for managers. This application gives users the ability to view non-sensitive data about their employees, filter by first name or last name, or sort by employee ID.</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nicoleobom/Employee-Directory"><button>CODE</button></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://emp-directory-nlo.herokuapp.com/"><button>DEPLOYED SITE</button></a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="6" className="portSection">
-                        <span><h3 className="title">Journey</h3></span>
-                        <h5>MongoDB // Mongoose // Express // Node.js // React // Bcrypt // Google Places API </h5>
-                        <p className="box">Journey is a simple resource to help you plan your next trip whether you know where to go or not. Create your own journey or have us create one for you!</p>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nicoleobom/Journey"><button>CODE</button></a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://createyourjourney.herokuapp.com/"><button>DEPLOYED SITE</button></a>
+                    <Col className="center">
+                        <h1>my projects</h1>
+                        <Accordion defaultActiveKey="0">
+                            <Card className="card-project">
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                        Quarantini
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="0">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card className="card-project">
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                        QuizApp
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="1">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card className="card-project">
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                                        Journey
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="2">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card className="card-project">
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                                        MadLibs Generator
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="3">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card className="card-project">
+                                <Card.Header>
+                                    <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                                        Employee Directory
+                                    </Accordion.Toggle>
+                                </Card.Header>
+                                <Accordion.Collapse eventKey="4">
+                                    <Card.Body>Hello! I'm the body</Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                        </Accordion>
                     </Col>
                 </Row>
             </div>

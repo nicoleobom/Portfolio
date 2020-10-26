@@ -4,17 +4,15 @@
 
 .nav-link {
     margin: 2px;
-    background: linear-gradient(to right, #108dc7,#ef8e38);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip:text;
-    color:rgba(0,0,0,1);
-    transition: color .35s ease-in-out;
+    color: black;
 }
 
 .nav-link:hover {
     text-transform: uppercase;
     font-weight: bold;
-    color:rgba(0,0,0,0);
+    color:#108dc7;
+}
+
+.resume-link:hover {
+    color: #ef8e38;
 }

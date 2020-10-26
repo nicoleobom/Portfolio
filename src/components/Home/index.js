@@ -1,7 +1,6 @@
 import React from 'react';
-import { Row, Col, Toast } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import './index.css';
-import TextLoop from "react-text-loop";
 import Navigation from '../Navigation/index';
 
 export default class Home extends React.Component {
@@ -16,12 +15,11 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-md-center body">
                 <Col className="center margin-top">
                     <h1 class="gradient">nicole o'bomsawin</h1>
                     <h5>SOFTWARE DEVELOPER</h5>
                     <Navigation />
-
                 </Col>
                 
             </Row>

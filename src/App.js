@@ -16,19 +16,10 @@ export default class App extends React.Component {
   render(){
     return (
       <div>
-        {/* <div id="slideup"></div> */}
           <Container>
             <Home />
-            {/* <Navigation />
-            <MobileNav />
-            <Social />
-            <Route path="/"><Redirect to="/home"/></Route>
-            <Route path="/home" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/experience" component={Experience} /> */}
+            <Portfolio />
           </Container>
-          {/* <div id="slidedown"></div> */}
       </div>
     );
   }

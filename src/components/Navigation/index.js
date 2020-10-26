@@ -14,7 +14,7 @@ export default class Navigation extends React.Component {
                   <Nav.Link href="#about" className="nav-link">About</Nav.Link>
                   <Nav.Link href="#Experience" className="nav-link">Experience</Nav.Link>
                   <Nav.Link href="mailto: nicoleobomsawin@gmail.com" className="nav-link">Contact</Nav.Link>
-                  <Nav.Link href="#Resume" className="nav-link">Resume</Nav.Link>
+                  <Nav.Link href="#Resume" className="nav-link resume-link">Resume</Nav.Link>
                 </Nav>
               </Col>
             </Row>
