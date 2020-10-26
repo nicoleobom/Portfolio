@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Toast } from 'react-bootstrap';
 import './index.css';
 import TextLoop from "react-text-loop";
+import Navigation from '../Navigation/index';
 
 export default class Home extends React.Component {
     toggleToast() {
@@ -16,17 +17,10 @@ export default class Home extends React.Component {
     render() {
         return (
             <Row className="justify-content-md-center">
-                <Col className="center">
+                <Col className="center margin-top">
                     <h1 class="gradient">nicole o'bomsawin</h1>
-                    {/* <TextLoop interval={500}>
-                        <h5>MongoDB</h5>
-                        <h5>Express</h5>
-                        <h5>React</h5>
-                        <h5>Node.js</h5>
-                        <h5>SQL</h5>
-                        <h5>AWS</h5>
-                        <h5>Python</h5>
-                    </TextLoop> */}
+                    <h5>SOFTWARE DEVELOPER</h5>
+                    <Navigation />
 
                 </Col>
                 

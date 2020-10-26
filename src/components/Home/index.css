@@ -1,147 +1,18 @@
-/* .cont {
-    margin-left: 10%;
-    margin-top: 15%;
-}
-
-.home {
-    margin-top: 25% !important;
-}
-
-h3 {
-    text-transform: uppercase;
-    font-weight: lighter;
-    letter-spacing: 3px;
-}
-
-#snackbar {
-    position: absolute;
-    background-color: rgba(255, 255, 255, .6);
-    border-radius: 20px;
-    margin-left: 30%;
-    color: #171728;
-}
-
-h6 {
-    font-weight: bold;
-    color: #171728;
-}
-
-/* lines */
-/* @keyframes slideUp {
-    0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-
-@keyframes slideDown {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-  
-#slideup {
-    animation-delay: 2s;
-    animation: 2s ease-out 0s 1 slideUp;
-    width: 50px;
-    height: 450px;
-    bottom: 0;
-    position: fixed;
-    z-index: 2;
-    margin-left: 10px;
-    border-right: 1px solid white;
-}
-
-#slidedown {
-    animation-delay: 3s;
-    animation: 2s ease-out 0s 1 slideDown;
-    width: 50px;
-    height: 700px;
-    top: 0px;
-    position: fixed;
-    z-index: 2;
-    right: 56px;
-    border-right: 1px solid white;
-}
-
-/* media query */
-/* @media only screen and (max-width: 768px) {
-    .cont-1 {
-        text-align: center;
-        margin: 30% 0 0 0;
-    }
-    .cont-2 {
-        text-align: center;
-        margin: 10% 0 0 0;
-    }
-    h1 {
-        font-size: 60px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h5 {
-        text-align: right;
-    }
-    .cont-1 h5 {
-        text-align: center;
-    }
-    .title {
-        text-align: right;
-    }
-    .box {
-        width: 100% !important;
-        text-align: right;
-    }
-    .b-2 {
-        text-align: right;
-    }
-    .c-m {
-        text-align: center;
-        margin: 0 0 0 0;
-    }
-    .c-1 { 
-        margin: 0 !important;
-    }
-    ul {
-        list-style-type: none;
-        text-align: right;
-    }
-    #slideup, #slidedown, #socialbar, #nav {
-        display: none;
-    }
-    #m-nav {
-        display: block!important;
-    }
-    #snackbar {
-        display: none;
-    }
-} */
-
-/* @media only screen and (max-width: 940px) and (min-width: 769px) {
-    #slideup {
-        height: 400px;
-    }
-    #m-nav {
-        display: block!important;
-    }
-    #nav {
-        display: none;
-    }
-}   */
-
 .center {
     text-align: center;
+}
+
+.margin-top {
+    margin-top: 20%;
 }
 
 h1 {
     font-size: 80px;
     font-weight: bold;
+    letter-spacing: 5px;
+}
+
+h5 {
     letter-spacing: 5px;
 }
 

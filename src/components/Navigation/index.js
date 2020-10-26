@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './index.css';
 import PDF from '../../assets/NicoleOBomsawin_Resume.pdf';
@@ -7,14 +7,15 @@ import PDF from '../../assets/NicoleOBomsawin_Resume.pdf';
 export default class Navigation extends React.Component {    
       render(){
         return (
-            <Row className="nav" id="nav">
+            <Row>
               <Col sm="12">
-                  <Link to="/home" className="navlinks navitems">Home</Link>
-                  <Link to="/about" className="navlinks navitems">About</Link>
-                  <Link to="/portfolio" className="navlinks navitems">Portfolio</Link>
-                  <Link to="/experience" className="navlinks navitems">Experience</Link>
-                  {/* <Link to="#" className="navlinks navitems">Blog</Link> */}
-                  <Link to={PDF} target="_blank" className="navlinks navitems resume" id="resumebtn">Resume</Link>
+                <Nav className="nav-center">
+                  <Nav.Link href="#projects" className="nav-link">Projects</Nav.Link>
+                  <Nav.Link href="#about" className="nav-link">About</Nav.Link>
+                  <Nav.Link href="#Experience" className="nav-link">Experience</Nav.Link>
+                  <Nav.Link href="mailto: nicoleobomsawin@gmail.com" className="nav-link">Contact</Nav.Link>
+                  <Nav.Link href="#Resume" className="nav-link">Resume</Nav.Link>
+                </Nav>
               </Col>
             </Row>
         )
