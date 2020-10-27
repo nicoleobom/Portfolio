@@ -39,4 +39,25 @@ p {
     padding: 5px;
     font-size: 13px !important;
   }
+  #star-svg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #star-svg {
+    display: none;
+  }
+}
+
+#star-svg {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
+  position: fixed;
+  color: black;
+  margin-top: 10%;
+  fill: black;
 }

@@ -38,3 +38,7 @@
 .shown {
     display: block;
 }
+
+#header {
+    z-index: 10;
+}

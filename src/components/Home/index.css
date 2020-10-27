@@ -7,7 +7,7 @@
 }
 
 .margin-top {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 
 h1 {
@@ -38,4 +38,8 @@ h5 {
   0%{background-position:left}
   50%{background-position:right}
   100%{background-position:left}
+}
+
+#home {
+  z-index: 0;
 }

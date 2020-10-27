@@ -14,7 +14,6 @@ export default class Navigation extends React.Component {
     var sticky = header.offsetTop;
 
     if(window.pageYOffset > sticky) {
-      debugger;
       header.classList.add('sticky');
       homeBtn.classList.add('shown');
     } else {
