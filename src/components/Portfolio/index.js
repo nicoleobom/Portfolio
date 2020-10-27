@@ -9,7 +9,7 @@ export default class Portfolio extends React.Component {
                 <Row className="justify-content-md-center">
                     <Col sm="8" className="center">
                         <h1>my projects</h1>
-                        <Accordion defaultActiveKey="0">
+                        <Accordion>
                             <Card className="card-project">
                                 <Card.Header className="card-header">
                                     <Accordion.Toggle as={Card.Header} variant="link" eventKey="0">
