@@ -5,12 +5,17 @@
 .nav-link {
     margin: 2px;
     color: black;
+    text-transform: lowercase;
+}
+
+.nav-link-active {
+    font-style: italic !important;
 }
 
 .nav-link:hover {
     text-transform: uppercase;
     font-weight: bold;
-    color:#108dc7;
+    color:#073763;
 }
 
 .resume-link:hover {
@@ -22,6 +27,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
+    background-color: #fff;
 }
 
 .hidden {

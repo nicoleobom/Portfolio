@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <Row className="justify-content-md-center body">
+            <Row className="justify-content-md-center body" id="home">
                 <Col className="center margin-top">
                     <h1 class="gradient">nicole o'bomsawin</h1>
                     <h5>SOFTWARE DEVELOPER</h5>

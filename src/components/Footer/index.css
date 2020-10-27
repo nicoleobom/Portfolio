@@ -1,0 +1,7 @@
+.footer-fixed {
+    position: fixed;
+    bottom: 0px;
+    margin-left: 0;
+    text-align: center;
+    background-color: #fff;
+}
