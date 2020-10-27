@@ -5,7 +5,7 @@ import './index.css';
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <div id="projects" className="body">
+            <div id="projects">
                 <Row className="justify-content-md-center">
                     <Col sm="8" className="center">
                         <h1>my projects</h1>
@@ -17,7 +17,7 @@ export default class Portfolio extends React.Component {
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="0">
-                                    <Card.Body>
+                                    <Card.Body className="body-portfolio">
                                         <p>Quarantini was created at the start of the global pandemic in March 2020. What better way to solve Quarantine
                                             boredom than to have an app figure out what to do for you? The Quarantini app can mix you a drink, tell you
                                             a joke, and even inspire you. What else are you going to do with your time?
@@ -37,7 +37,7 @@ export default class Portfolio extends React.Component {
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="1">
-                                    <Card.Body>
+                                    <Card.Body className="body-portfolio">
                                         <p>QuizApp was created to provide a fun, easy way for kids to continue learning throughout school and when school
                                             is not in session. Includes a leaderboard of the top 10 Quizzers so kids can compete against each other
                                             in different subjects.
@@ -57,7 +57,7 @@ export default class Portfolio extends React.Component {
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="2">
-                                    <Card.Body>
+                                    <Card.Body className="body-portfolio">
                                         <p>Even though COVID-19 chopped our travel spending in half, 65% of the U.S. population still looks forward
                                             to the days they can travel again. More than half of those individuals plan to drive for their first trip
                                             post-COVID. Whether you know where to go or you just want to get out of the house, Journey can help you
@@ -78,7 +78,7 @@ export default class Portfolio extends React.Component {
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="3">
-                                    <Card.Body>
+                                    <Card.Body className="body-portfolio">
                                         <p>A beginner's Python starter project. MadLibs is a simple CLI-based that asks a user for specific input
                                             and spits out a Christmas MadLibs snippet as a reponse based on that input!
                                         </p>
@@ -96,7 +96,7 @@ export default class Portfolio extends React.Component {
                                     </Accordion.Toggle>
                                 </Card.Header>
                                 <Accordion.Collapse eventKey="4">
-                                    <Card.Body>
+                                    <Card.Body className="body-portfolio">
                                         <p>A simple way for managers to view non-sensitive data about their employees, filter by first name or last name, or sort by employee ID.
                                         </p>
                                         <p>

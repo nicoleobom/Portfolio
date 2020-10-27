@@ -20,3 +20,23 @@ code {
 p {
   font-family: 'Lato', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h5 {
+    font-size: 15px !important;
+  }
+  .question {
+    font-size: 20px !important;
+  }
+  .nav-link {
+    margin: 0 !important;
+    padding: 5px;
+    font-size: 13px !important;
+  }
+}
