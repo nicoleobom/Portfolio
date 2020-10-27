@@ -13,5 +13,24 @@
 
 .card-header h3:hover {
    font-weight: bold;
+}
 
+.btn-portfolio {
+    background-color:  #073763;
+    border: none;
+    transition: ease-in-out .25s;
+    border-radius: 5px;
+    margin: 10px;
+    text-transform: lowercase;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-portfolio:hover {
+    background: linear-gradient(to right, #108dc7,#ef8e38);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
 }
