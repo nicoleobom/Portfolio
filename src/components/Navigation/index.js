@@ -24,7 +24,6 @@ export default class Navigation extends React.Component {
   }
 
   render(){
-    
     return (
         <Row>
           <Col sm="12" className="header" id="header">

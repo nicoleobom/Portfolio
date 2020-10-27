@@ -12,7 +12,7 @@ export default class Portfolio extends React.Component {
                         <Accordion defaultActiveKey="0">
                             <Card className="card-project">
                                 <Card.Header className="card-header">
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                                    <Accordion.Toggle as={Card.Header} variant="link" eventKey="0">
                                         <h3>Quarantini</h3>
                                     </Accordion.Toggle>
                                 </Card.Header>
@@ -32,7 +32,7 @@ export default class Portfolio extends React.Component {
                             </Card>
                             <Card className="card-project">
                                 <Card.Header className="card-header">
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                                    <Accordion.Toggle as={Card.Header} variant="link" eventKey="1">
                                         <h3>QuizApp</h3>
                                     </Accordion.Toggle>
                                 </Card.Header>
@@ -52,7 +52,7 @@ export default class Portfolio extends React.Component {
                             </Card>
                             <Card className="card-project">
                                 <Card.Header className="card-header">
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                                    <Accordion.Toggle as={Card.Header} variant="link" eventKey="2">
                                         <h3>Journey</h3>
                                     </Accordion.Toggle>
                                 </Card.Header>
@@ -73,7 +73,7 @@ export default class Portfolio extends React.Component {
                             </Card>
                             <Card className="card-project">
                                 <Card.Header className="card-header">
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                                    <Accordion.Toggle as={Card.Header} variant="link" eventKey="3">
                                         <h3>MadLibs Generator</h3>
                                     </Accordion.Toggle>
                                 </Card.Header>
@@ -91,7 +91,7 @@ export default class Portfolio extends React.Component {
                             </Card>
                             <Card className="card-project">
                                 <Card.Header className="card-header">
-                                    <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                                    <Accordion.Toggle as={Card.Header} variant="link" eventKey="4">
                                         <h3>Employee Directory</h3>
                                     </Accordion.Toggle>
                                 </Card.Header>

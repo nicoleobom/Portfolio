@@ -5,6 +5,7 @@
 .card-header {
     background-color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .card-header h3 {
