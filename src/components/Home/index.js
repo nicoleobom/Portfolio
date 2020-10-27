@@ -1,47 +1,17 @@
 import React from 'react';
-import { Row, Col, Toast } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import './index.css';
-import TextLoop from "react-text-loop";
+import Navigation from '../Navigation/index';
 
 export default class Home extends React.Component {
-    toggleToast() {
-        const toast = document.getElementById('snackbar');
-        if(toast.style.visibility === "hidden") {
-            toast.style.visibility = "visible"
-        } else {
-            toast.style.visibility = "hidden"
-        }
-    }
-
     render() {
         return (
-            <Row>
-                <Col className="cont cont-1 home">
-                    <h1>nicole <span onMouseOver={this.toggleToast} onMouseLeave={this.toggleToast}>o'bomsawin</span></h1>
-                    <Toast 
-                        id="snackbar"
-                        style={{ visibility: 'hidden' }}
-                        >
-                        <Toast.Header closeButton={false}><h6><strong>Yep, it's a weird last name.</strong></h6></Toast.Header>
-                        <Toast.Body>
-                            <h5>It's pronounced: oh-BOM-sah-win
-                            and it means "keeper of the fire".
-                            <br /><br />
-                            <strong>Origin:</strong> Abanaki / French Canadian Indian</h5>
-                        </Toast.Body>
-                    </Toast>
-                    <h3>software developer</h3>
-                    <TextLoop interval={500}>
-                        <h5>MongoDB</h5>
-                        <h5>Express</h5>
-                        <h5>React</h5>
-                        <h5>Node.js</h5>
-                        <h5>SQL</h5>
-                        <h5>AWS</h5>
-                    </TextLoop>
-
+            <Row className="justify-content-md-center body" id="home">
+                <Col className="center margin-top">
+                    <h1 class="gradient">nicole o'bomsawin</h1>
+                    <h5>SOFTWARE DEVELOPER</h5>
+                    <Navigation />
                 </Col>
-                
             </Row>
         )
     }

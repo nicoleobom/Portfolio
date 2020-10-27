@@ -1,20 +1,9 @@
 .social {
-    text-decoration: none;
-    color: white;
-    display: block;
+    color: black;
+    margin: 8px;
     transition: ease-in-out .25s;
-    padding: 10px 0;
-    margin-left: 50px;
 }
 
 .social:hover {
-    transform: scale(1.2);
-    color: white;
-}
-
-#socialbar {
-    margin-top: 0px;
-    position: fixed;
-    left: 0px;
-    top: 100px;
+    color: #073763;
 }

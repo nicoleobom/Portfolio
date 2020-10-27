@@ -1,45 +1,31 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './index.css';
-import TextLoop from "react-text-loop";
 
 export default class About extends React.Component {
     render() {
         return (
-            <div className="c-m">
-                <Row>
-                    <Col sm="12" className="cont cont-2">
+            <div className="body" id="about">
+                <Row className="justify-content-md-center">
+                    <Col sm="8" className="center">
                         <h1>hi! i'm nicole</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="8" className="c-1">
-                        <p>
-                        I'm a passionate software developer with a primary focus in MongoDB,
-                        Express, React, and Node.js (MERN Stack) in addition to front-end languages
-                        and frameworks. I have experience collaborating on multiple web projects for small
-                        businesses and Fortune 500 global companies. </p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col sm="8" className="c-1">
-                        <h3 id="b-3" className="b-3">always 
-                            <TextLoop interval={600}>
-                                <span>&nbsp;learning</span>
-                                <span>&nbsp;persisting</span>
-                                <span>&nbsp;nimble</span>
-                                <span>&nbsp;detail oriented</span>
-                                <span>&nbsp;understanding</span>
-                                <span>&nbsp;thinking</span>
-                            </TextLoop> </h3>
-                        <p>It's in my nature to find ways to keep learning and honing in on my skills. When something is broken,
-                            I'm absolutely determined to fix it. When I'm looking for an app to fill a void and can't find it,
-                            I'll absolutely build it myself.
-                        </p>
-                        <p>Because my background is in marketing with experience at small, fast-paced advertising agencies,
-                            I know when to pivot quickly. I know that a client's mind can change in a snap and I'm great at 
-                            making sure a project is completed with great quality down to the last tiny detail.
-                        </p>
+                        <div className="content" >
+                            <p><b>How do you pronounce your last name?</b><br/>This is a question I always get.
+                            It's pronounced oh-BOM-sah-win. Its origin is French-Canadian-Indian and it means "keeper of the fire".
+                            I have an Abenaki tribe in Quebec that I'm still a member of!</p>
+                            
+                            <p><b>Who are you?</b><br />I am a passionate software developer with 4 years of fast-paced advertising agency experience in client-facing roles that have given me invaluable experience.
+                                I primarily focus in the MERN stack (MongoDB, Express, React, Nodejs) but I am also learning Python and AWS in my spare time.</p>
+                            
+                            <p><b>So...why the change in careers?</b><br /> I always found myself gravitating towards web projects when I started my career after college.
+                            I experimented a little bit with front-end development and Facebook developer tools at my first position (Marketing Communications Manager, Potratz).
+                            After that, I briefly joined a venture where I was able to manage accounts while developing custom WordPress templates and helping with design.
+                            While it was something I was passionate about, I hadn't considered a serious career switch until 2019 where I dove head first into CodeAcademy and LinkedIn Learning.
+                            I knew I needed more structure and more importantly, collaboration. I enrolled in the Software Engineer bootcamp at Georgia Tech in February 2020 where I honed my skills in front-end while learning back-end technologies like Node and MongoDB.
+                            And honestly? I am so happy I found something I'm so passionate about. I love coding because I love problem solving and troubleshooting technical problems. Above all, I love that there are so many different ways to get to the same endpoint and you're <b>always</b> learning.</p>
+                            
+                            <p><b>What do you do for fun?</b><br />In my free time you can find me (still) sitting at my computer playing games like Valorant, Raft, and Destiny or taking my (almost) 3-year old puppy Freya for a romp in the park.</p>
+                        </div>
                     </Col>
                 </Row>
             </div>

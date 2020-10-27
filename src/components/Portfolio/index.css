@@ -1,34 +1,37 @@
-.box {
-    width: auto;
-    height: 100px;
-    border: 1px solid white !important;
-    background-color: white;
-    color: #171728;
-    padding: 5px;
-    font-size: 12px;
+.card-project {
+    border: none;
 }
 
-.portSection {
-    margin-top: 50px;
-    margin-left: 10%;
+.card-header {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-h5 {
-    font-size: 15px !important;
-    font-weight: lighter;
-    font-family: 'Inconsolata', monospace;
+.card-header h3 {
+    color: black !important;
 }
 
-button {
-    border: 1px solid white;
-    background-color: #171728;
-    color: white;
+.card-header h3:hover {
+   font-weight: bold;
+}
+
+.btn-portfolio {
+    background-color:  #073763;
+    border: none;
     transition: ease-in-out .25s;
-    margin-left: 20px;
-    outline: none !important;
+    border-radius: 5px;
+    margin: 10px;
+    text-transform: lowercase;
+    color: white;
+    padding: 10px 20px;
 }
 
-button:hover {
-    background-color: white;
-    color: #171728;
+.btn-portfolio:hover {
+    background: linear-gradient(to right, #108dc7,#ef8e38);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
 }
