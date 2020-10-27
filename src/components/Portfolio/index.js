@@ -5,7 +5,7 @@ import './index.css';
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <div id="projects">
+            <div id="projects" className="body-projects">
                 <Row className="justify-content-md-center">
                     <Col sm="8" className="center">
                         <h1>my projects</h1>
