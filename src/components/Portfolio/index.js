@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Accordion, Card, Button } from 'react-bootstrap';
+import { Row, Col, Accordion, Card } from 'react-bootstrap';
 import './index.css';
 
 export default class Portfolio extends React.Component {
