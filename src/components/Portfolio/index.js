@@ -103,7 +103,7 @@ export default class Portfolio extends React.Component {
                                             <b>Built with: </b>React, Node.js
                                         </p>
                                         <a href="https://www.github.com/nicoleobom/Employee-Directory" target="_blank"><button className="btn-portfolio">See the code</button></a>
-                                        <a href="https://emp-directory-nlo.herokuapp.com/" target="_blank" className="btn-portfolio"><button>Deployed site</button></a>
+                                        <a href="https://emp-directory-nlo.herokuapp.com/" target="_blank"><button className="btn-portfolio">Deployed site</button></a>
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
