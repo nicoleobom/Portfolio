@@ -1,5 +1,5 @@
 .nav-center {
-    justify-content: center !important;
+    justify-content: center;
 }
 
 .nav-link {
@@ -28,6 +28,7 @@
     width: 100%;
     z-index: 2;
     background-color: #fff;
+    left: 0
 }
 
 .hidden {

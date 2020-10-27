@@ -5,6 +5,7 @@ import Home from './components/Home/index';
 import About from './components/About/index';
 import Portfolio from './components/Portfolio/index';
 import Footer from './components/Footer/index';
+import Navigation from './components/Navigation/index';
 
 export default class App extends React.Component {
 
