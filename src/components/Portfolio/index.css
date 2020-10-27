@@ -1,3 +1,17 @@
 .card-project {
-    
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border: none;
+}
+
+.card-header h3 {
+    color: black !important;
+}
+
+.card-header h3:hover {
+   font-weight: bold;
+
 }

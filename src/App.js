@@ -19,6 +19,8 @@ export default class App extends React.Component {
           <Container>
             <Home />
             <Portfolio />
+            <About />
+            <Experience />
           </Container>
       </div>
     );

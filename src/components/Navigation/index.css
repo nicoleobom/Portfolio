@@ -1,5 +1,5 @@
 .nav-center {
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .nav-link {
@@ -15,4 +15,19 @@
 
 .resume-link:hover {
     color: #ef8e38;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
 }
